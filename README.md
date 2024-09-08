@@ -33,3 +33,28 @@ You can install Python using **Chocolatey** or **winget**.
 ```
 choco install python310
 ```
+- **Using winget**
+```
+winget install Python.Python.3.10
+```
+### 2. Install Required Python Libraries
+
+Once Python is installed, open your terminal (CMD or PowerShell) and install the required libraries using pip:
+```
+pip install requests
+```
+#The tkinter library comes pre-installed with most Python distributions, but if for any reason it is missing, you can install it using the following command:
+```
+pip install tk
+```
+###3. Clone or Download the Project
+#If you haven't done so already, clone or download the project to your local machine:
+```
+git clone https://github.com/networkabilityllc/CloudflareDNSUpdater
+```
+###4. Running the Application
+
+#Navigate to the project directory and run the cloudflare_fetcher.py file:
+```
+python cloudflare_fetcher.py
+```
