@@ -31,7 +31,8 @@ From your home directory type:
 git clone https://github.com/networkabilityllc/CloudflareDNSUpdater
 ```
 To run the console-based Record ID Fetcher type:
-``` cd https://github.com/networkabilityllc/CloudflareDNSUpdater
+``` 
+cd https://github.com/networkabilityllc/CloudflareDNSUpdater
 ```
 ```
 python ConsoleGetRecordID.py
