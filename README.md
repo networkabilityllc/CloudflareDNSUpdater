@@ -58,3 +58,18 @@ git clone https://github.com/networkabilityllc/CloudflareDNSUpdater
 ```
 python cloudflare_fetcher.py
 ```
+This will launch the GUI application.
+
+### 5. Using the Application
+
+   1) Enter your Zone ID and API Token in the respective fields.
+   2) Click the Get Record ID button.
+   3) The DNS Record IDs for your Cloudflare zone will be displayed in the results area.
+
+###   How It Works
+
+- **Zone ID: A unique identifier for your Cloudflare zone (domain).**
+- **API Token: Your Cloudflare API token, which must have permissions to access DNS records.**
+
+The app sends a GET request to Cloudflare's API to retrieve the DNS records for the provided zone and displays the record IDs along with their associated domain names.
+You will need the Record ID for the bash script that runs as the scheduled updater
