@@ -35,7 +35,7 @@ To run the console-based Record ID Fetcher type:
 cd https://github.com/networkabilityllc/CloudflareDNSUpdater
 ```
 ```
-python ConsoleGetRecordID.py
+python ./ConsoleGetRecordID.py
 ```
 Paste or type in your Zone ID
 Paste or type in your API Key
