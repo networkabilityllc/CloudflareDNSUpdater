@@ -18,10 +18,12 @@ To run this application on **Debian-Based Linux**, you will need:
 3. **json** Python library for API interaction.
 4. **curses** Python library for console output
 ### Tools for Installation in Linux (Debian/Ubuntu):
-``` sudo apt-get install python3 python-is-python3
+```
+sudo apt-get install python3 python-is-python3
 ```
 If you do not already have git installed:
-``` sudo apt-get install git
+``` 
+sudo apt-get install git
 ```
 
 From your home directory type:
