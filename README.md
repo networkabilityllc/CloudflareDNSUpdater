@@ -13,10 +13,10 @@ The **Cloudflare Record ID Fetcher** is a simple Python-based GUI application th
 
 
 To run this application on **Debian-Based Linux**, you will need:
-1. **Python 3.x** (including `pip` for package management).
-2. **Requests** Python library for API interaction.
-3. **json** Python library for API interaction.
-4. **curses** Python library for console output
+1. **Python 3.x**: (including `pip` for package management).
+2. **Requests**: Python library for API interaction.
+3. **json**: Python library for json input/output formatting.
+4. **curses**: Python library for console output
 ### Tools for Installation in Linux (Debian/Ubuntu):
 ```
 sudo apt-get install python3 python-is-python3
