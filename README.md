@@ -50,7 +50,7 @@ The script will output a list of Record IDs like so:
  Domain: subdomain2.example.com
  ID: 098cba765fed432bca
 ```
-**It will also save a copy of the export in the current directory as recordID.txt
+**It will also save a copy of the export in the current directory as recordID.txt**
 
 
 To run this application on **Windows**, you will need:
