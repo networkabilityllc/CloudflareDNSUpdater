@@ -130,5 +130,12 @@ You will need the Record ID for the bash script that runs as the scheduled updat
    - **Insert the Record ID you obtained using the Record ID Fetcher into record_id.**
    - **Insert the full name of the subdomain you want to update into subdomain.example.com.**
 ### 7. Run the script (should not require elevation)
-   - **If there were no errors, it will simply return OK**
-   - **If there was a problem, it will report the error**
+   - **If there were no errors, it will return:**
+   ```
+   Successfully assigned IP 12.34.45.67 to subdomain1.example.com
+   ```
+   - **If there was a problem, it will report the error (for example):**
+   ```
+   Failed to update DNS record for subdomain1.example.com. Response: {"success":false,"errors":[{"code":10000,"message":"Authentication error"}]}
+   ```
+   
