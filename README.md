@@ -48,7 +48,7 @@ pip install requests
 pip install tk
 ```
 ### 3. Clone or Download the Project
-** If you haven't done so already, clone or download the project to your local machine:**
+* * If you haven't done so already, clone or download the project to your local machine:* *
 ```
 git clone https://github.com/networkabilityllc/CloudflareDNSUpdater
 ```
