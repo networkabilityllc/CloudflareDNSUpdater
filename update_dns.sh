@@ -19,9 +19,9 @@ update_dns_record() {
 
   # Check if the update was successful
   if [[ "$response" == *"\"success\":true"* ]]; then
-    echo "OK"
+    echo "Successfully assigned IP ${current_ip} to ${DOMAIN}"
   else
-    echo "Failed"
+    echo "Failed to update DNS record for ${DOMAIN}. Response: $response"
   fi
 }
 
@@ -30,7 +30,7 @@ current_ip=$(get_current_ip)
 
 # Check if getting the current IP was successful
 if [ $? -ne 0 ]; then
-  echo "Failed"
+  echo "Failed to retrieve current IP"
   exit 1
 fi
 
