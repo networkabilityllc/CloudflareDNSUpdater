@@ -118,11 +118,17 @@ You will need the Record ID for the bash script that runs as the scheduled updat
 
 ### 6. Using the Record ID:
    1) Open update_dns.sh in vim or nano
-   2) Edit the variable section of the file and insert the:
-   - **Zone ID into zone_id (between the quotes)**
-   - **Your API Token into api_token (between the quotes)**
-   - **The Record ID obtained by running the GetRecordID.py script for the domain you want to update into record_id (between the quotes)**
-   - **The full name of the subdomain you are wanting to update into subdomain.example.com (between the quotes)**
+   2) Edit the variable section of the file (note, it is important that these values are inserted between the quotes):
+   ```
+   ZONE_ID="zone_id"
+   API_TOKEN="api_token"
+   RECORD_ID="record_id"
+   DOMAIN="subdomain.example.com"
+   ```
+   - **Insert your Zone ID into zone_id.**
+   - **Insert your API Token into api_token.**
+   - **Insert the Record ID you obtained using the Record ID Fetcher into record_id.**
+   - **Insert the full name of the subdomain you want to update into subdomain.example.com.**
 ### 7. Run the script (should not require elevation)
    - **If there were no errors, it will simply return OK**
    - **If there was a problem, it will report the error**
