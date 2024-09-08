@@ -11,6 +11,45 @@ The **Cloudflare Record ID Fetcher** is a simple Python-based GUI application th
 
 ## Prerequisites
 
+
+To run this application on **Debian-Based Linux**, you will need:
+1. **Python 3.x** (including `pip` for package management).
+2. **Requests** Python library for API interaction.
+3. **json** Python library for API interaction.
+4. **curses** Python library for console output
+### Tools for Installation in Linux (Debian/Ubuntu):
+``` sudo apt-get install python3 python-is-python3
+```
+If you do not already have git installed:
+``` sudo apt-get install git
+```
+
+From your home directory type:
+```
+git clone https://github.com/networkabilityllc/CloudflareDNSUpdater
+```
+To run the console-based Record ID Fetcher type:
+``` cd https://github.com/networkabilityllc/CloudflareDNSUpdater
+```
+```
+python ConsoleGetRecordID.py
+```
+Paste or type in your Zone ID
+Paste or type in your API Key
+
+**Note: the console will not echo back your input, for security reasons. It is probably best to copy and paste the information in, rather than typing it out manually**
+
+The script will output a list of Record IDs like so:
+ ```
+ Record ID(s):
+ Domain: subdomain1.example.com
+ ID: 123abc456def789bca012fed
+ Domain: subdomain2.example.com
+ ID: 098cba765fed432bca
+```
+**It will also save a copy of the export in the current directory as recordID.txt
+
+
 To run this application on **Windows**, you will need:
 
 1. **Python 3.x** (including `pip` for package management).
